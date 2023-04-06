@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Project</title>
+  <style>
+  span{
+  color:red;
+  }
+  #body{
+  padding-left:60px;
+  }
+  </style>
+  </head>
+ <body>
+ <form ACTION="DONE.JSP">
+ <div style="border:solid grey 1px;background-color:#ffcccc;"> 
+  <div> <span style="color:#0000ff;font-size:25px;">Are you Looking for a job?</span>Register Free & Start applying for thousands of job Interviews & Recruitment drives</div><br><br>
+  <div id="body">
+  <label>Name<span>*</span></label><br><input type="text" id="name" name="name" placeholder="Name"/><br><br>
+  <label>Email<span>*</span></label><br><input type="text" id="email" name="email" placeholder="Email Address"/><br><br>
+  <label>Password<span>*</span></label><br><input type="password" id="pws" name="pws" placeholder="Password-min 6 Charaters" min="6" /><br><br>
+  <label>Mobile<span>*</span></label><br><input type="text" id="num" name="num" placeholder="+91" readonly size="1"/>&nbsp;<input type="text" id="pnum" name="pnum" placeholder="Mobile Number" /><br><br>
+  <label>Current City<span>*</span></label><br><input type="text" list="city" placeholder="Select City"/><br><br>
+  <datalist id="city">
+   <option>Rameswaram</option>
+   <option>Mkp</option>
+   <option>Mori</option>
+   <option>Gudimula</option>
+  </datalist>
+   <label>Qualification Details<span>*</span></label><br><input type="text" list="edu" placeholder="Select Course" /><br><br>
+  <datalist id="edu">
+   <option>java</option>
+   <option>html</option>
+   <option>css</option>
+   <option>javascript</option>
+  </datalist>
+  <label>Upload Resume<span>*</span></label><br><input type="file" id="fi" name="fi"/><br><br>
+  <span style="padding-left:80px"><input type="checkbox" id="ch" name="ch" value="done"/><label style="color:white;">I have read the terms and conditions</label></span><br><br>
+  <span style="padding-left:180px;"><input type="submit" id="sub" name="sub"/></span><br><br>
+ </div>
+ </div>
+ </form>
+ </body>
+</html>
